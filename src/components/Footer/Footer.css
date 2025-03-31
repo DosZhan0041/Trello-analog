@@ -1,0 +1,68 @@
+:root {
+    --head-color: #1e1e1e;
+    --head--text-color: #f9f9f9cb ;
+  }
+  
+  [data-theme="dark"] {
+    --head-color: #f4f4f4bc;
+    --head--text-color: #333;
+  }
+  
+
+footer{
+    width: 100%;
+    height: 9.62vw; 
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(rgb(79, 79, 79), var(--head-color));
+}
+
+.footer-left, .footer-right{
+    width: 30%;
+    height: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-left p, .footer-right p{
+    font-size: 1.51vw;
+    color: rgb(255, 255, 255);
+}
+
+@media(max-width: 750px){
+    footer{
+        width: 100%;
+        height: 25vw; 
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background: linear-gradient(rgb(79, 79, 79), var(--head-color));
+    }
+    
+    .footer-left, .footer-right{
+        width: 80%;
+        height: 70%;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .footer-left p, .footer-right p{
+        font-size: 4vw;
+        color: rgb(255, 255, 255);
+    }
+}

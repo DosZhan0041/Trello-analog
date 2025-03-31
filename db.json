@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "email": "doszhan@mail.ru",
+      "password": "$2a$10$ES5lG19ep/7krg0N5es9qeb6AM.Gc3.lHCA2hrmrwMp2hYI4./fg2",
+      "id": 1
+    },
+    {
+      "email": "dossssss@mail.ru",
+      "password": "$2a$10$9WxCwrJhor0FFnCtqrZuzefNkgPl7R6/XP8Ni4plG.bscb6wDYe0y",
+      "id": 2
+    }
+  ],
+  "boards": [
+    {
+      "id": 1742918777426,
+      "title": "First ",
+      "userId": 2,
+      "columns": [
+        {
+          "id": 1742918794320,
+          "title": "Front",
+          "tasks": [
+            {
+              "id": 1742920614602,
+              "title": "ыфавыавыу",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 1742918802724,
+          "title": "Back",
+          "tasks": [
+            {
+              "id": 1742919056646,
+              "title": "ыфваsaCds",
+              "completed": false
+            },
+            {
+              "id": 1743416289393,
+              "title": "speak eng",
+              "completed": true
+            }
+          ]
+        },
+        {
+          "id": 1742918806869,
+          "title": "Devopsыы",
+          "tasks": [
+            {
+              "id": 1742918855183,
+              "title": "asxdcfv",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": 1743435219011,
+          "title": "sdadgfg",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": 1742921760024,
+      "title": "second",
+      "userId": 2,
+      "columns": [
+        {
+          "id": 1742921764506,
+          "title": "1",
+          "tasks": []
+        },
+        {
+          "id": 1742921765749,
+          "title": "2",
+          "tasks": []
+        },
+        {
+          "id": 1743416707802,
+          "title": "3",
+          "tasks": []
+        },
+        {
+          "id": 1743416709200,
+          "title": "4",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
